@@ -8,7 +8,7 @@ public class WelcomeController {
 
     @GetMapping("/")
     public String welcome() {
-        return "Welcome to Java CI Demo Application!";
+        return "Welcome to Java CI Demo Application! With MCP Server";
     }
 
     @GetMapping("/hello")

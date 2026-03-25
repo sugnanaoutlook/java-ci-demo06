@@ -8,7 +8,7 @@ public class JavaCiDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JavaCiDemoApplication.class, args);
-		String s = "Training Update-1";
+		String s = "Sugnana02 Branch Update-1";
 	}
 
 }

@@ -2,7 +2,13 @@
   "permissions": {
     "allow": [
       "Bash(node:*)",
-      "Bash(claude mcp:*)"
+      "Bash(claude mcp:*)",
+      "Bash(npm search:*)",
+      "Bash(npx:*)",
+      "Bash(MYSQL_HOST=127.0.0.1 MYSQL_PORT=3306 MYSQL_USER=root MYSQL_PASS=root MYSQL_DB=test01 timeout 5 mcp-server-mysql:*)",
+      "Bash(mysql:*)",
+      "Bash(mysql-client:*)",
+      "Bash(git add:*)"
     ]
   }
 }

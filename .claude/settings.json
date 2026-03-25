@@ -4,6 +4,22 @@
       "command": "node",
       "args": [".claude/mcp-servers/git-server/index.js"],
       "description": "Git operations MCP server for this project"
+    },
+    "mysql": {
+      "command": "mcp-server-mysql",
+      "args": [],
+      "env": {
+        "MYSQL_HOST": "127.0.0.1",
+        "MYSQL_PORT": "3306",
+        "MYSQL_USER": "root",
+        "MYSQL_PASS": "root",
+        "MYSQL_DB": "test01",
+        "ALLOW_INSERT_OPERATION": "true",
+        "ALLOW_UPDATE_OPERATION": "true",
+        "ALLOW_DELETE_OPERATION": "true",
+        "ALLOW_DDL_OPERATION": "true"
+      },
+      "description": "MySQL MCP server for test01 database"
     }
   }
 }
