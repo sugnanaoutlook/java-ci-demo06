@@ -8,6 +8,7 @@ public class JavaCiDemoApplication {
 
 	public static void main(String[] args) {
 		SpringApplication.run(JavaCiDemoApplication.class, args);
+		String s = "Test";
 	}
 
 }
