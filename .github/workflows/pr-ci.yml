@@ -12,7 +12,7 @@ permissions:
   issues: write
 
 jobs:
-  runs-on: ubantu-latest
+  runs-on: ubuntu-latest
 
   steps:
     - name: Checkout code
